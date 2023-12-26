@@ -2417,7 +2417,7 @@
       "width": 58,
       "height": 26,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "0",
+      "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/UnusedOutdoorArea/border.bin",
       "blockdata_filepath": "data/layouts/UnusedOutdoorArea/map.bin"
     },
@@ -4410,6 +4410,56 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_COVADONGA",
+      "name": "Covadonga_Layout",
+      "width": 110,
+      "height": 66,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Covadonga/border.bin",
+      "blockdata_filepath": "data/layouts/Covadonga/map.bin"
+    },
+    {
+      "id": "LAYOUT_COVADONGA_GROTTO",
+      "name": "Covadonga_Grotto_Layout",
+      "width": 94,
+      "height": 58,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RustoboroMOD1",
+      "border_filepath": "data/layouts/Covadonga_Grotto/border.bin",
+      "blockdata_filepath": "data/layouts/Covadonga_Grotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE231",
+      "name": "Route231_Layout",
+      "width": 57,
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route231/border.bin",
+      "blockdata_filepath": "data/layouts/Route231/map.bin"
+    },
+    {
+      "id": "LAYOUT_BULNES",
+      "name": "Bulnes_Layout",
+      "width": 90,
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SnowMOD1",
+      "border_filepath": "data/layouts/Bulnes/border.bin",
+      "blockdata_filepath": "data/layouts/Bulnes/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE248",
+      "name": "Route248_Layout",
+      "width": 80,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SnowMOD1",
+      "border_filepath": "data/layouts/Route248/border.bin",
+      "blockdata_filepath": "data/layouts/Route248/map.bin"
     }
   ]
 }

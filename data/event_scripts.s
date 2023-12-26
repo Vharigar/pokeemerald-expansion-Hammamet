@@ -1,4 +1,3 @@
-#include "config.h"
 #include "config/battle.h"
 #include "config/item.h"
 #include "constants/global.h"
@@ -1005,13 +1004,6 @@ Common_EventScript_LegendaryFlewAway::
 	release
 	end
 
-EventScript_VsSeekerChargingDone::
-	special VsSeekerFreezeObjectsAfterChargeComplete
-	waitstate
-	special VsSeekerResetObjectMovementAfterChargeComplete
-	releaseall
-	end
-
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"
 	.include "data/scripts/abnormal_weather.inc"
@@ -1067,3 +1059,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Covadonga/scripts.inc"
+
+	.include "data/maps/Covadonga_Grotto/scripts.inc"
+
+	.include "data/maps/Route231/scripts.inc"
+
+	.include "data/maps/Bulnes/scripts.inc"
+
+	.include "data/maps/Route248/scripts.inc"

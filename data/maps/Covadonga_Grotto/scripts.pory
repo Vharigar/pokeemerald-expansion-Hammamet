@@ -1,0 +1,70 @@
+mapscripts Covadonga_Grotto_MapScripts {}
+
+script TESTE_EventScript_Pokeball{
+ 
+    lockall
+    showmonpic(SPECIES_RAYQUAZA, 10,3)
+    msgbox("Do you want to choose Rayquaza?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_RAYQUAZA, 80, ITEM_MASTER_BALL)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Rayquaza")
+            removeobject(16)
+            setflag(FLAG_UNUSED_0x493)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Rayquaza")
+            removeobject(16)
+            setflag(FLAG_UNUSED_0x493)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(TESTE_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+ 
+}
+ 
+script NicknamePartyMon{
+ 
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+ 
+ 
+}
+ 
+script NicknameBoxMon{
+ 
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    call(Common_EventScript_TransferredToPC)
+ 
+}
+ 
+text TESTE_NotChosen{
+    "You did not choose the Pokemon"
+}
+
+script Covadonga_Grotto_Sign01{
+    lockall
+    msgbox(format("TESTANDO ESSE NEGÓCIO MALUCO QUE COISA CHATA E INSUPORTAVEL, GOSTARIA DE COMER O CUZINHO DAS PUTA TUDO"))
+    releaseall
+}

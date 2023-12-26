@@ -63,6 +63,11 @@
 #define MAP_UNDERWATER_ROUTE129 (54 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE105 (55 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
+#define MAP_COVADONGA           (57 | (0 << 8))
+#define MAP_COVADONGA_GROTTO    (58 | (0 << 8))
+#define MAP_ROUTE231            (59 | (0 << 8))
+#define MAP_BULNES              (60 | (0 << 8))
+#define MAP_ROUTE248            (61 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

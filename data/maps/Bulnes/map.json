@@ -1,0 +1,466 @@
+{
+  "id": "MAP_BULNES",
+  "name": "Bulnes",
+  "layout": "LAYOUT_BULNES",
+  "music": "MUS_LILYCOVE",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE248",
+      "offset": 41,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 48,
+      "y": 61,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route115_EventScript_ItemGreatBall",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 36,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route115_EventScript_ItemGreatBall",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 60,
+      "y": 25,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route115_EventScript_ItemGreatBall",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+      "x": 60,
+      "y": 47,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "x": 73,
+      "y": 39,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "x": 51,
+      "y": 58,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "x": 59,
+      "y": 59,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "x": 70,
+      "y": 48,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "x": 77,
+      "y": 44,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BOY_3",
+      "x": 67,
+      "y": 31,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+      "x": 60,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+      "x": 9,
+      "y": 56,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Route110_EventScript_Kaleb",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+      "x": 51,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+      "x": 51,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "Route111_EventScript_Drew",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 40,
+      "y": 55,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 43,
+      "y": 48,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route115_EventScript_ItemGreatBall",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 28,
+      "y": 55,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 28,
+      "y": 58,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 29,
+      "y": 57,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 32,
+      "y": 59,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 27,
+      "y": 56,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 30,
+      "y": 46,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 30,
+      "y": 40,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route115_EventScript_ItemGreatBall",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 112,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 62,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_BULNES",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 72,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "weather",
+      "x": 112,
+      "y": 17,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    },
+    {
+      "type": "weather",
+      "x": 114,
+      "y": 19,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 112,
+      "y": 19,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 113,
+      "y": 19,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 111,
+      "y": 19,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 113,
+      "y": 17,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    },
+    {
+      "type": "weather",
+      "x": 74,
+      "y": 32,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 73,
+      "y": 32,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 70,
+      "y": 28,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    },
+    {
+      "type": "weather",
+      "x": 71,
+      "y": 29,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    },
+    {
+      "type": "weather",
+      "x": 72,
+      "y": 29,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    },
+    {
+      "type": "weather",
+      "x": 73,
+      "y": 28,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 70,
+      "y": 23,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 48,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 80,
+      "y": 56,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 81,
+      "y": 36,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    }
+  ]
+}

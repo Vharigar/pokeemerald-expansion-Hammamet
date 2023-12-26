@@ -207,3 +207,9 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_RustoboroMOD1[] = INCBIN_U16("data/tilesets/secondary/rustoboro_mod1/metatiles.bin");
+const u16 gMetatileAttributes_RustoboroMOD1[] = INCBIN_U16("data/tilesets/secondary/rustoboro_mod1/metatile_attributes.bin");
+
+const u16 gMetatiles_SnowMOD1[] = INCBIN_U16("data/tilesets/secondary/snow_mod1/metatiles.bin");
+const u16 gMetatileAttributes_SnowMOD1[] = INCBIN_U16("data/tilesets/secondary/snow_mod1/metatile_attributes.bin");
