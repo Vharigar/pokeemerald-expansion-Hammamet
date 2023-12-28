@@ -4455,7 +4455,7 @@
       "id": "LAYOUT_ROUTE248",
       "name": "Route248_Layout",
       "width": 80,
-      "height": 25,
+      "height": 27,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_SnowMOD1",
       "border_filepath": "data/layouts/Route248/border.bin",
