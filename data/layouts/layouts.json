@@ -4460,6 +4460,26 @@
       "secondary_tileset": "gTileset_SnowMOD1",
       "border_filepath": "data/layouts/Route248/border.bin",
       "blockdata_filepath": "data/layouts/Route248/map.bin"
+    },
+    {
+      "id": "LAYOUT_CUEVAS",
+      "name": "Cuevas_Layout",
+      "width": 40,
+      "height": 70,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MauvileMOD1",
+      "border_filepath": "data/layouts/Cuevas/border.bin",
+      "blockdata_filepath": "data/layouts/Cuevas/map.bin"
+    },
+    {
+      "id": "LAYOUT_VILLAVICIOSA",
+      "name": "Villaviciosa_Layout",
+      "width": 50,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_LilycoveMOD1",
+      "border_filepath": "data/layouts/Villaviciosa/border.bin",
+      "blockdata_filepath": "data/layouts/Villaviciosa/map.bin"
     }
   ]
 }

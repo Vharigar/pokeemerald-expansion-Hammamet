@@ -1076,3 +1076,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Bulnes/scripts.inc"
 
 	.include "data/maps/Route248/scripts.inc"
+
+	.include "data/maps/Cuevas/scripts.inc"
+
+	.include "data/maps/Villaviciosa/scripts.inc"

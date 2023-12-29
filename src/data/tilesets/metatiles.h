@@ -213,3 +213,10 @@ const u16 gMetatileAttributes_RustoboroMOD1[] = INCBIN_U16("data/tilesets/second
 
 const u16 gMetatiles_SnowMOD1[] = INCBIN_U16("data/tilesets/secondary/snow_mod1/metatiles.bin");
 const u16 gMetatileAttributes_SnowMOD1[] = INCBIN_U16("data/tilesets/secondary/snow_mod1/metatile_attributes.bin");
+
+const u16 gMetatiles_MauvileMOD1[] = INCBIN_U16("data/tilesets/secondary/mauvile_mod1/metatiles.bin");
+const u16 gMetatileAttributes_MauvileMOD1[] = INCBIN_U16("data/tilesets/secondary/mauvile_mod1/metatile_attributes.bin");
+
+
+const u16 gMetatiles_LilycoveMOD1[] = INCBIN_U16("data/tilesets/secondary/lilycove_mod1/metatiles.bin");
+const u16 gMetatileAttributes_LilycoveMOD1[] = INCBIN_U16("data/tilesets/secondary/lilycove_mod1/metatile_attributes.bin");

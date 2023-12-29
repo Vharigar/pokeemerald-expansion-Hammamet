@@ -151,8 +151,8 @@
       "x": 18,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_BULNES",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_CUEVAS",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
