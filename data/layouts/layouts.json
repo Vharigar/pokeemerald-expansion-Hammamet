@@ -4474,7 +4474,7 @@
     {
       "id": "LAYOUT_VILLAVICIOSA",
       "name": "Villaviciosa_Layout",
-      "width": 50,
+      "width": 80,
       "height": 80,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_LilycoveMOD1",
